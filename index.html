@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushi at Home POS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🍣 Sushi at Home POS</h1>
+    
+</header>
+
+<main>
+
+    <!-- TAFELS -->
+    <section id="tables-screen">
+
+        <h2>Tafels</h2>
+
+        <div class="tables-grid">
+
+            <button class="table free" data-table="1">Tafel 1</button>
+            <button class="table free" data-table="2">Tafel 2</button>
+            <button class="table free" data-table="3">Tafel 3</button>
+
+            <button class="table free" data-table="4">Tafel 4</button>
+            <button class="table free" data-table="5">Tafel 5</button>
+            <button class="table free" data-table="6">Tafel 6</button>
+
+            <button class="table free" data-table="7">Tafel 7</button>
+            <button class="table free" data-table="8">Tafel 8</button>
+            <button class="table free" data-table="9">Tafel 9</button>
+
+            <button class="table free" data-table="10">Tafel 10</button>
+            <button class="table free" data-table="11">Tafel 11</button>
+            <button class="table free" data-table="12">Tafel 12</button>
+
+            <button class="table free" data-table="13">Tafel 13</button>
+            <button class="table free" data-table="14">Tafel 14</button>
+            <button class="table free" data-table="15">Tafel 15</button>
+
+        </div>
+
+    </section>
+
+    <!-- BESTELSCHERM -->
+    <section id="order-screen" class="hidden">
+
+        <div class="topbar">
+            <button id="backBtn">⬅ Terug</button>
+            <h2 id="tableTitle">Tafel</h2>
+        </div>
+
+        <div class="menu-section" id="menuContainer">
+
+            <h3>Dranken</h3>
+
+            <button class="menu-item"
+                data-name="Coca-Cola"
+                data-price="3">
+                Coca-Cola (€3,00)
+            </button>
+
+            <button class="menu-item"
+                data-name="Sprite"
+                data-price="3">
+                Sprite (€3,00)
+            </button>
+
+            <button class="menu-item"
+                data-name="Jupiler"
+                data-price="3">
+                Jupiler (€3,00)
+            </button>
+
+            <h3>Sushi Combo</h3>
+
+            <button class="menu-item"
+                data-name="Combo 1"
+                data-price="15">
+                Combo 1 (€15,00)
+            </button>
+
+            <button class="menu-item"
+                data-name="Combo 2"
+                data-price="17.5">
+                Combo 2 (€17,50)
+            </button>
+
+        </div>
+
+        <div class="order-section">
+
+            <h3>Bestelling</h3>
+
+            <ul id="orderList"></ul>
+
+            <h2>
+                Totaal:
+                €<span id="total">0.00</span>
+            </h2>
+
+            <button id="clearTable">
+                Betalen 
+            </button>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
