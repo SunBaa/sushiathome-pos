@@ -109,7 +109,11 @@ const menuData = {
         { name: "Combo 4", price: 19.50 },
         { name: "Combo 5", price: 18.50 },
         { name: "Combo 6", price: 23.00 },
-        { name: "Combo 7", price: 29.00 }
+        { name: "Combo 7", price: 29.00 },
+        { name: "Vegetarische Maki Combo (24 stuks)", price: 24.00 },
+        { name: "Nigiri Combo (10 stuks)", price: 15.00 },
+        { name: "Nigiri Zalm en Tonijn Combo (10 stuks)", price: 16.50 },
+        { name: "Hoso Combo (24 stuks)", price: 21.00}
     ],
 
     "Japanse Grill": [
