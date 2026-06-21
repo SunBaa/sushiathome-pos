@@ -4,6 +4,7 @@ const menuData = {
     "Dranken": [
         { name: "Coca-Cola", price: 3.00 },
         { name: "Coca-Cola Zero", price: 3.00 },
+        { name: "Fanta", price: 3.00 },
         { name: "Sprite", price: 3.00 },
         { name: "Ice Tea", price: 3.00 },
         { name: "Minute Maid Orange", price: 3.00 },
